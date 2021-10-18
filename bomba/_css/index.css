@@ -1,0 +1,101 @@
+body {
+    
+    background-image: url(../../_img/beck.pbg.jpg) !important;
+    background: no-repeat;
+    background-size: cover;
+}
+
+.comecar {
+    border-radius: 10%;
+    background-color: #0000006e;
+    width: 280px;
+    height: 280px;
+}
+.centro {
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    margin-top: 10%;
+}
+.jogar {
+    margin-top: 16%;
+}
+.opcoes {
+    margin-top: 10%;
+}
+.sair {
+    margin-top: 10%;
+}
+
+button {
+    border-radius: 14px 14px 14px 14px;
+    cursor: pointer;
+    width: 50%;
+    height: 45px;
+    background-color: rgb(71, 71, 71);
+    color: white;
+    border: none;
+}
+
+.config {
+    color: white;
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    border-radius: 25%;
+    padding-bottom: 1%;
+    padding-right: 1%;
+}
+
+
+
+button:hover {
+    transform: scale(1.1);
+    transition: all 0.5s;
+}
+button:active {
+    color: black;
+    background-color: rgb(158, 158, 158) ;
+    width: 55%;
+    height: 50px;    
+    transform: translateY(4px);
+}
+
+
+
+
+/* Gear running */
+
+@-webkit-keyframes barrelRoll {
+    0% { -webkit-transform: rotate(0deg); }
+    100% { -webkit-transform: rotate(360deg); }
+}
+
+@-webkit-keyframes invertBarrelRoll {
+    0% { -webkit-transform: rotate(0deg); }
+    100% { -webkit-transform: rotate(-360deg); }
+}
+
+
+i {
+    color: white;
+    display: block;
+    position: absolute;
+    width: 30px;
+    height: 30px;
+    bottom: 40px;
+    right: 30px;
+    background: url(../../_img/gear.png);
+    -webkit-animation: barrelRoll 2s infinite linear;
+    -webkit-animation-play-state: paused;
+}
+
+i:last-of-type {
+    bottom: 22px;
+    right: 56px;
+    -webkit-animation-name: invertBarrelRoll;
+}
+
+.gear:hover > i {
+    -webkit-animation-play-state: running;
+}

@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <title>Document</title>
+    <link rel="stylesheet" href="../bomba/_css/vs.css">
+</head>
+<body>
+    <div class="linha">
+        <p>1</p>
+        <p>2</p>
+        <p>3</p>
+        <p>4</p>
+        <p>5</p>
+        <p>6</p>
+        <p>7</p>
+        <p>8</p>
+        <p>9</p>
+        <p>10</p>
+        <p>11</p>
+        <p>12</p>
+        <p>13</p>
+        <p>14</p>
+        <p>15</p>
+        <p>16</p>
+        <p>17</p>
+        <p>18</p>
+        <p>19</p>
+        <p>20</p>
+        <p>21</p>
+        
+    </div>
+    <hr />
+    <div class="cod">   
+        <p>window.<span class="lightyellow">onload</span> =<span class="blue"> function <span></span><span class="yellow">() { </span></p>
+        
+        <p class="interval">  <span class="lightyellow">setInterval </span> <span class="white">(</span> <span class="blue">function </span>() { </p> 
+        
+        <p class="inner">      document<span class="lightyellow">.getElementById</span><span class="yellow">(</span><span class="lightred">"timer"</span><span class="yellow">)</span>.innerHTML <span class="white">=</span>  minute + <span class="lightred">" : "</span> + sec; </p>
+        <p class="minute">     minute <span class="white">= </span>  <span class="lightyellow">parseInt</span><span class="yellow">(</span>minute<span class="yellow">)</span> </p>
+        <p class="sec">        sec <span class="white">= </span>  <span class="lightyellow">parseInt</span><span class="yellow">(</span>sec<span class="yellow">)</span> </p>
+        <P class="blue Difficult">   </P>
+            <form class="sec">
+            <label for="difficult">Difficult :</label>
+            <select id="select" name="difficult">
+              <option value="volvo">Facil</option>
+              <option value="saab">Medio</option>
+              <option value="fiat">Dificil</option>
+              <option value="audi">Impossivel</option>
+            </select>
+          </form>
+        <p class="sec--">     sec--; </p>
+        
+        <p class="if">              <span class="purple">if </span> <span class="yellow">(</span>sec <span class="white">==</span>  -1<span class="yellow">)</span> <span class="yellow">{</span> </p>
+        <p class="minutesMenos">       minute--; </p>
+        <p class="secI">               sec <span class="white">= </span>  59;  </p>
+        <p class="Fcahav">                  <sapn class="yellow">}</sapn>  </p>
+        <p class="if">       <span class="purple">if </span> <span class="yellow">(</span>sec <span class="white">==</span>  0 <span class="white">&&</span> minute <span class="white">==</span>  0<span class="yellow">) {</span> </p>
+        <p class="perdeu">           window.location.href <span class="white">=</span> <span class="lightred">"perdeu.html"</span>; </p>
+        <p class="Fcahav">     <span class="yellow"> } </span> </p>
+        
+        <p class="zeromin">     minute <span class="white">=</span> minute <span class="white"><</span> 10 ? 0 <span class="white">+</span> minute <span class="white">:</span> minute; </p>
+        <p class="zerosec">     sec <span class="white">=</span> sec <span class="white"><</span> 10 ? 0 <span class="white">+</span> sec <span class="white">:</span> sec; </p>
+        
+        <p class="fChav"> } </p>
+        <p> , <span class="lightgreen">1000</span>); </p>
+          
+        <p class="purple">return <Button class="submit" onclick="Teste();">Start</Button><span class="white">;</span></p> 
+        <p> <sapn class="yellow">}</sapn></p>
+        <input type="submit"> 
+
+    </div>
+    <script src="../bomba/_js/vs.js"></script>
+    <script>
+          
+    
+    </script>
+</body>
+</html>

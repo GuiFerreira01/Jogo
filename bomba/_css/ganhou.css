@@ -1,0 +1,71 @@
+body {
+    background-image: url(../../_img/ganhou.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    display: flex;
+    max-width: 100%;
+    width: 99%;
+}
+
+/* button {
+        
+
+} */
+.flex {
+    display: flex;
+    flex-direction: column;
+}
+img{
+    height: 100%;
+    width: 70%;
+    margin-top: 5%;
+    margin-left: 200px;
+}
+.texto {
+    width: 32%;
+    margin-left: 10%;
+    margin-top: 6%;
+}
+h1 {
+    font-family: 'Ephesis', cursive;
+    color: rgb(255, 255, 255);
+    
+    top: 14%;
+    text-align: center;
+    left: 15%;
+    font-size: 60px;
+}
+
+button{
+    border: none;
+    background-color: antiquewhite;
+    padding: 1px;
+    height: 70px;
+    width: 280px;
+    cursor: pointer;
+    background-color: white;
+    color: black;
+    border-radius: 30px 30px 30px 30px;
+    border: solid white;
+    
+}
+
+.tn {
+    margin-top: 47%;
+    margin-left: 85%;
+}
+
+.sr {
+    margin-top: 10%;
+    margin-left: 86%;
+}
+
+button h2{
+    margin-top: 2%;
+    font-size: 37px;
+    margin-left: 0px;
+    margin-right: 7px;
+    font-family: 'Ephesis', cursive;
+}
+
+

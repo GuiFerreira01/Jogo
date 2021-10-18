@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <title>Bomba Explode</title>
+    <link rel="stylesheet" href="../bomba/_css/ganhou.css">
+    <link href="https://fonts.google.com/specimen/Roboto+Mono">
+    <link href="https://fonts.googleapis.com/css2?family=Ephesis&display=swap" rel="stylesheet">
+</head>
+<body style="background-color: black;">
+    <div class="texto">
+        <h1>Parabéns, Você <br />Salvou a Cidade!!</h1>
+    </div>
+    <div class="flex">
+        <button onclick="Jogar()" class="tn"><h2>Jogar Novamente</h2></button>
+        <button onclick="Sair()" class="sr"><h2>Sair</h2></button>
+    </div>
+    <script>
+        function Jogar() {
+            window.location.assign("vs.html")
+        }
+        function Sair() {
+            window.location.assign("index.html")
+        }
+    </script>
+</body>
+</html>

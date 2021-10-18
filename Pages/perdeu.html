@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <title>Bomba Explode</title>
+    <link rel="stylesheet" href="../bomba/_css/perdeu.css">
+    <link href="https://fonts.google.com/specimen/Roboto+Mono">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Ephesis&display=swap" rel="stylesheet">
+</head>
+<body >
+    <main>
+        <div class="centro">
+        <h1>Voce é uma decepçao, <br />não consegue nem desarmar uma bomba!</h1>
+        </div>
+
+        <button class="TNT" onclick="Tnt()"><h2>Tentar Novamente</h2></button>
+        <button class="quit" onclick="Quit()"><h2>Sair</h2></button>
+    </main>
+    <script>
+        function Quit() {
+            window.location.assign("index.html")
+        }   
+        function Tnt() {
+            window.location.assign("vs.html")
+        }
+    </script>
+</body>
+</html>
